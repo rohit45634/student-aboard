@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Study Abroad Frontend Assignment
 
-## Getting Started
+## Tech Stack
 
-First, run the development server:
+* Next.js
+* Material UI (MUI)
+* Zustand
+* NextAuth
+* Axios
+
+---
+
+## Features
+
+* Authentication using DummyJSON API
+* Protected Dashboard
+* Users List + Single User Page
+* Products List + Single Product Page
+* Search Functionality
+* Pagination
+* Category Filter
+* Zustand State Management
+* Responsive UI
+* LocalStorage Caching
+
+---
+
+## Why Zustand?
+
+Zustand was used because it is:
+
+* Lightweight
+* Simple to use
+* Less boilerplate than Redux
+* Good for global state management
+* Easy for authentication state handling
+
+---
+
+## Installation
+
+```bash
+npm install
+```
+
+---
+
+## Required Packages
+
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+npm install axios
+npm install zustand
+npm install next-auth
+npm install react-hot-toast
+```
+
+---
+
+## Environment Variables
+
+Create `.env.local`
+
+```env
+NEXTAUTH_SECRET=mysecretkey
+```
+
+---
+
+## Run Project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Test Credentials
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+Username: emilys
+Password: emilyspass
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## APIs Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+https://dummyjson.com/auth/login
+https://dummyjson.com/users
+https://dummyjson.com/products
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Rohit
